@@ -1,0 +1,236 @@
+body{
+    background: rgba(0, 0, 0, 0.7) url('hospitalbk.jpg') center center fixed;
+    background-size: cover;
+    background-blend-mode: darken;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container h1{
+  color: orangered;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.navbar ul li{
+  display: inline-block;
+  padding: 18px;
+  text-transform: uppercase;
+}
+
+.navbar ul li a{
+  text-decoration: none;
+  color: #fff;
+  padding: 4px;
+  transition: 3.5s;
+}
+
+.navbar ul li a:hover{
+  box-shadow: 0 3px 50px orangered inset,0 3px 50px orangered inset,
+  0 3px 50px orangered inset,0 3px 50px orangered inset;
+}
+
+.navbar .reservation{
+  padding: 8px;
+  background-color: orangered;
+}
+.welcome-container:hover{
+  box-shadow: 0 3px 50px orangered inset,0 3px 50px orangered inset,
+  0 3px 50px orangered inset,0 3px 50px orangered inset;
+}
+.welcome-container {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.016);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: fadeIn 2s;
+  transition: 3.5s;
+}
+
+.welcome-message {
+  text-align: center;
+  animation: zoomIn 5s;
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes zoomIn {
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+  
+
+        
+.card-container {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+}
+
+.card:hover{
+  box-shadow: 0 3px 50px orangered inset,0 3px 50px orangered inset,
+  0 3px 50px orangered inset,0 3px 50px orangered inset;
+}
+
+.card {
+border-radius: 10px;
+margin: 20px;
+width: 300px;
+transition: 3.5s;
+}
+
+.card-header {
+padding: 50px;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+color: beige;
+}
+
+.card-header h2 {
+margin: 0;
+}
+
+.expand-button {
+background-color: #333;
+color: #fff;
+border: none;
+padding: 10px;
+font-size: 24px;
+cursor: pointer;
+}
+
+.card-content {
+  color: wheat;
+padding: 20px;
+max-height: 0;
+overflow: hidden;
+transition: max-height 0.3s ease-in-out;
+}
+
+.card-content p {
+margin: 0;
+}
+
+.card-content.show {
+max-height: 100vh;
+}
+
+
+
+    
+.footer {
+  background-color:black;
+color: beige;
+padding: 10px;
+border-radius: 30px;
+}
+
+.footer:hover{
+  box-shadow: 0 3px 50px orangered inset,0 3px 50px orangered inset,
+  0 3px 50px orangered inset,0 3px 50px orangered inset;
+  transition: 3.5s;
+}
+
+.footer-container {
+max-width: 1200px;
+margin: 0 auto;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+border-radius: 30px;
+}
+
+.footer-section {
+width: 30%;
+margin: 20px;
+border-radius: 30px;
+}
+
+.footer-section h2 {
+margin-top: 0;
+}
+
+.footer-section ul {
+list-style: none;
+padding: 0;
+margin: 0;
+}
+
+.footer-section li {
+margin-bottom: 10px;
+}
+
+.footer-section a {
+color: #fff;
+text-decoration: none;
+}
+
+.footer-section:hover{
+  box-shadow: 0 3px 50px rgb(196, 15, 184) inset,0 3px 50px rgb(193, 14, 145) inset,
+  0 3px 50px rgb(209, 31, 155) inset,0 3px 50px rgb(228, 36, 180) inset;
+  transition: 3.5s;
+}
+
+.footer-bottom {
+color: #fff;
+padding: 10px;
+text-align: center;
+clear: both;
+}
+
+.footer-bottom:hover{
+  box-shadow: 0 3px 50px rgb(10, 159, 169) inset,0 3px 50px rgb(13, 178, 186) inset,
+  0 3px 50px rgb(16, 175, 203) inset,0 3px 50px rgb(13, 150, 188) inset;
+  transition: 3.5s;
+}
+
+.footer-bottom ul {
+list-style: none;
+padding: 0;
+margin: 0;
+display: flex;
+justify-content: center;
+}
+
+.footer-bottom li {
+margin-right: 20px;
+}
+
+.footer-bottom a {
+color: #fff;
+text-decoration: none;
+}

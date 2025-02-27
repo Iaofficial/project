@@ -1,0 +1,50 @@
+body{
+    background: rgba(0, 0, 0, 0.7) url('hospitalbk.jpg') center center fixed;
+    background-size: cover;
+    background-blend-mode: darken;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.container {
+	width: 80%;
+	margin: 40px auto;
+	padding: 20px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.1);
+	border-radius: 30px;
+}
+
+h1 {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.contacts, .doctors-contacts {
+	background-color: #C6F4D6;
+	padding: 20px;
+	border: 1px solid #3E8E41;
+	margin-bottom: 20px;
+	border-radius: 30px;
+}
+
+h2 {
+	margin-top: 0;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	margin-bottom: 10px;
+}
+
+.doctor-contact {
+	margin-bottom: 20px;
+	border-radius: 40px;
+}
+
+.doctor-contact h3 {
+	margin-top: 0;
+}
