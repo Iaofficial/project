@@ -1,0 +1,172 @@
+body{
+  background: rgba(0, 0, 0, 0.7) url('hbk.jpg') center center fixed;
+  background-size: cover;
+  background-blend-mode: darken;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f41869;
+  padding: 10px 20px;
+  position: relative;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  margin: 0 15px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #FFD700; /* Gold color on hover */
+}
+
+.hospital-name {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  animation: fadeIn 3s ease-in-out ;
+}
+
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+      transform: translateX(20px);
+  }
+  to {
+      opacity: 1;
+      transform: translateX(0);
+  }
+}
+
+
+
+header {
+  background: #039ef1;
+  color: rgb(5, 0, 0);
+  padding: 20px;
+  text-align: center;
+}
+
+main {
+  padding: 20px;
+}
+
+.hospital-branches {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  border-radius: 30px;
+}
+
+.branch {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px;
+  width: 300px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  border-radius: 30px;
+}
+
+.branch img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.city-label {
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.slogan {
+  font-style: italic;
+  color: #f50e0e;
+  margin: 5px 0;
+}
+
+.review {
+  color: #777;
+  margin: 10px 0;
+}
+
+footer {
+  background: #15efca;
+  color: rgb(3, 0, 0);
+  text-align: center;
+  padding: 10px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+.social-media a {
+  color: rgb(9, 1, 1);
+  margin: 0 10px;
+  text-decoration: none;
+  border-radius: 30px;
+}
+
+.social-media a:hover {
+  text-decoration: underline;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.content {
+  padding: 20px;
+  text-align: center;
+}
+
+.footer {
+  background-color: #333;
+  color: rgb(241, 19, 193);
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  display: inline;
+  margin: 0 15px;
+}
+
+.footer-links a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}

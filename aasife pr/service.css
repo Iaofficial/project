@@ -1,0 +1,56 @@
+body{
+    background: rgba(0, 0, 0, 0.7) url('hbk.jpg') center center fixed;
+    background-size: cover;
+    background-blend-mode: darken;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+
+header {
+    background: #007bff;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+h2 {
+    color: #333;
+}
+
+.achievements, .facilities {
+    padding: 20px;
+    margin: 20px;
+    background: rgba(255, 255, 255, 0.347);
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.facility {
+    display: inline-block;
+    width: 23%;
+    margin: 1%;
+    text-align: center;
+}
+
+.facility img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #007bff;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
